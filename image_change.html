@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var image_change=['altbalaji.png','amazonprime.png','linkdin.png','snapdeal.png'];
+        var i=0;
+
+        function change()
+        {
+            var myimage=document.getElementById("image-change");
+            myimage.setAttribute("src",image_change[i]);
+            i++;
+            if(i>=image_change.length)
+            {
+                i=0;
+            }   
+        }
+        setInterval(change,1000);
+    </script>
+</head>
+<body>
+    <img src="ajio.png" id="image-change">
+</body>
+</html>
