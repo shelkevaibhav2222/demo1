@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add-sub-mul-div.css">
+    <script src="add-sub-mul-div.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="main-div" >
+        <div class="inner-div"  > ADDITION
+            <table id="addition-table">
+                <tr>
+                    <td>पहिला अंक</td>
+                    <td><input type="number" id="add-number-first"></td>
+                </tr>
+                <tr>
+                    <td>दुसरा अंक</td>
+                    <td><input type="number" id="add-number-second"></td>
+                </tr>
+                <tr>
+                   <td><input type="button" value="बेरीज करा" onclick="return add() "></td>
+                   <td></td>
+                </tr>
+                <tr>
+                    <td>तुमचा निकाल</td>
+                    <td><span id="add-result"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="inner-div" id="substraction-div">SUBSTRACTION
+            <table id="substraction-table">
+                <tr>
+                    <td>पहिला अंक</td>
+                    <td><input type="number" id="sub-number-first"></td>
+                </tr>
+                <tr>
+                    <td>दुसरा अंक</td>
+                    <td><input type="number" id="sub-number-second"></td>
+                </tr>
+                <tr>
+                   <td><input type="button" value="वजाबाकी करा" onclick="return sub() "></td>
+                   <td></td>
+                </tr>
+                <tr>
+                    <td>तुमचा निकाल</td>
+                    <td><span id="sub-result"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="inner-div" id="divide-div" >DIVIDE
+            <table id="dividation-table">
+                <tr>
+                    <td>पहिला अंक</td>
+                    <td><input type="number" id="divide-number-first"></td>
+                </tr>
+                <tr>
+                    <td>दुसरा अंक</td>
+                    <td><input type="number" id="divide-number-second"></td>
+                </tr>
+                <tr>
+                   <td><input type="button" value="भागाकार करा" onclick="return divide() "></td>
+                   <td></td>
+                </tr>
+                <tr>
+                    <td>तुमचा निकाल</td>
+                    <td><span id="divide-result"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="inner-div" id="multiplication-div">MULTIPLICATION
+            <table id="multiplication-table">
+                <tr>
+                    <td> पहिला अंक </td>
+                    <td><input type="number" id="mul-number-first"></td>
+                </tr>
+                <tr>
+                    <td> दुसरा अंक </td>
+                    <td><input type="number" id="mul-number-second"></td>
+                </tr>
+                <tr>
+                   <td><input type="button" value="गुणाकार करा" onclick="return multiplication() "></td>
+                   <td></td>
+                </tr>
+                <tr>
+                    <td>तुमचा निकाल</td>
+                    <td><span id="multiplication-result"></td>
+                </tr>
+            </table>
+        </div>
+    
+    </div>
+</body>
+</html>
